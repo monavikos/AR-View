@@ -22,3 +22,26 @@ nav{
     flex: 1;
     background: rgb(99, 143, 128);;
 }
+nav ul{
+    list-style-type:lower-greek;
+    padding: 20px;
+}
+article{
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: rgb(167, 144, 87);
+    padding: 10px;
+}
+footer{
+    background-color: rgb(163, 87, 87);
+    padding: 20px;
+    text-align: center;
+    color:rgba(27, 172, 116, 0.692);
+}
+@media (max-width: 1200px){
+    section{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
