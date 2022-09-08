@@ -45,3 +45,15 @@ footer{
         flex-direction: column;
     }
 }
+address{
+    background-color: azure;
+    text-decoration: dotted;
+    text-shadow: 10px;
+    text-align: center;
+}
+h2{
+    background: scroll;
+    color: rgb(159, 127, 189);
+    background-color: aquamarine;
+    text-align: center;
+}
