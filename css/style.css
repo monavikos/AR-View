@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header style */
+header{
+    background-color: rgb(97, 104, 110);
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(15, 78, 57);
+}
+section{
+    display: -webkit-flex;
+    display: flex;
+}
+nav{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: rgb(99, 143, 128);;
+}
